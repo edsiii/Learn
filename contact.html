@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>cuision website for Iphone, Android, Smartphone Mobile Website Template | Home :: w3layouts</title>
+		<title>cuision website for Iphone, Android, Smartphone Mobile Website Template | Contact :: w3layouts</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</script>
@@ -56,7 +56,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!----start-top-header----->
 			<div class="wrap">
 				<div class="container">
-     		 <div class="top-header" id="head1">
+     		 <div class="top-header top-head" id="head1">
      		 	<div class="back-button">
      		 		<a href="home.html">back</a>
      		 	</div>
@@ -72,73 +72,44 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!---End-header---->
 			<!---start-content---->
 			<div class="content">
-						<div class="top-grids">
-							<div class="top-grid">
-								<h3>Welcome</h3>
-								<img src="images/slider1.jpg" title="image-name" />
-								<a href="#">Read more</a>
-							</div>
-							<div class="top-grid">
-								<h3>Our history</h3>
-								<img src="images/slider2.jpg" title="image-name" />
-								<a href="#">Read more</a>
-							</div>
-							<div class="top-grid" id="last-grid">
-								<h3>Our Events</h3>
-								<img src="images/slider3.jpg" title="image-name" />
-								<a href="#">Read more</a>
-							</div>
-							<div class="clear"> </div>
-						</div>
-						<div class="clear"> </div>
-						<div class="bottom-grids">
-							<div class="bottom-grid-videos">
-								<h3>Watch the Video</h3>
-								<div class="video-grid">
-									<img src="images/v1.jpg" title="video-name" />
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at accumsan justo. Vivamus eget volpat lacus nec tristique leoestibulum.</p>
-								</div>
-								<div class="video-grid">
-									<img src="images/v2.jpg" title="video-name" />
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at accumsan justo. Vivamus eget volpat lacus nec tristique leoestibulum.</p>
-								</div>
-								<div class="clear"> </div>
-							</div>
-							<div class="tips">
-								<h3>Cooking Tips</h3>
-								<div class="menu_container">
-									<p class="menu_head">Cooking Tip1<span class="plusminus">+</span></p>
-										<div class="menu_body" style="display: none;">
-										<p>containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-										</div>
-									<p class="menu_head">Cooking Tip2<span class="plusminus">+</span></p>
-										<div class="menu_body" style="display: none;">
-										<p>theonlytutorials.com is providing a great varitey of tutorials and scripts to use it immediate on any project!</p>
-										</div>
-								</div>
-							</div>
-						<script type="text/javascript">
-							$(document).ready(function(){
-								$(".menu_body").hide();
-								//toggle the componenet with class menu_body
-								$(".menu_head").click(function(){
-									$(this).next(".menu_body").slideToggle(600); 
-									var plusmin;
-									plusmin = $(this).children(".plusminus").text();
-									
-									if( plusmin == '+')
-									$(this).children(".plusminus").text('-');
-									else
-									$(this).children(".plusminus").text('+');
-								});
-							});
-						</script>
-							<div class="clear"> </div>
-						</div>
-				</div>
+				<!-----start-contact----->
+				<div class="contact">
+				<div class="section group">				
+				<div class="col span_2_of_3">
+				  <div class="contact-form">
+				  	<h3>Contact Us</h3>
+					    <form method="post" action="contact-post.html">
+					    	<div>
+						    	<span><label>NAME</label></span>
+						    	<span><input name="userName" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						    	<span><label>E-MAIL</label></span>
+						    	<span><input name="userEmail" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						     	<span><label>MOBILE</label></span>
+						    	<span><input name="userPhone" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						    	<span><label>SUBJECT</label></span>
+						    	<span><textarea name="userMsg"> </textarea></span>
+						    </div>
+						   <div>
+						   		<span><input type="submit" value="Submit"></span>
+						  </div>
+					    </form>
+
+				    </div>
+  				</div>				
+			  </div>
+			</div>
+				<!-----End-contact----->
+				<div class="clear"> </div>
 			<!---End-content---->
 		</div>
 		<!---End-wrap---->
+		</div>
 		</div>
 		<div class="footer">
 				<div class="top-to-page">
